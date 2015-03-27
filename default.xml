@@ -3,7 +3,7 @@
 
   <remote  name="AOSIP"
            fetch="https://github.com/AOSIP/" 
-           revision="lollipop-5.1"/>
+           revision="android-5.1"/>
            
   <remote  name="github"
            fetch="https://github.com/" />
