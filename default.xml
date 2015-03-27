@@ -6,7 +6,7 @@
            revision="android-5.1"/>
            
   <remote  name="github"
-           fetch="https://github.com/" />
+           fetch="https://github.com" />
            
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
@@ -506,5 +506,4 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="AOSIP" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.1" />
-
 </manifest>
