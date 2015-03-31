@@ -505,5 +505,5 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="AOSIP" />
-  <project path="vendor" name="platform_vendor_moto" remote="AOSIP" />
+  <project path="vendor" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.1"/>
 </manifest>
