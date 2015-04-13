@@ -6,7 +6,7 @@
            revision="android-5.1-caf"/>
 
   <remote  name="CyanogenMod"
-           fetch="https://github.com/AOSIP/" 
+           fetch="https://github.com/CyanogenMod/" 
            revision="cm-12.1"/>
            
   <remote  name="github"
