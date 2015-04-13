@@ -3,7 +3,11 @@
 
   <remote  name="AOSIP"
            fetch="https://github.com/AOSIP/" 
-           revision="android-5.1"/>
+           revision="android-5.1-caf"/>
+
+  <remote  name="CyanogenMod"
+           fetch="https://github.com/AOSIP/" 
+           revision="cm-12.1"/>
            
   <remote  name="github"
            fetch="https://github.com/" />
@@ -47,8 +51,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
-  <project path="device/moto/shamu" name="platform_device_moto_shamu" remote="AOSIP" />
-  <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -506,5 +508,15 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/aosip" name="platform_vendor_aosip" remote="AOSIP" />
-  <project path="vendor/moto/shamu" name="proprietary_vendor_motorola" remote="AOSIP" />
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.1" />
+  <project path="device/lge/d851" name="platform_device_lge_d851" remote="AOSIP" />
+  <project path="device/lge/g3-common" name="platform_device_lge_g3-common" remote="AOSIP" />
+  <project path="kernel/lge/g3" name="kernel_lge_g3" remote="CyanogenMod" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="CyanogenMod" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="CyanogenMod" />
+
+  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" remote="github" groups="qcom,qcom_audio" revision="cm-12.1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" remote="github" groups="qcom,qcom_display" revision="cm-12.1-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" remote="github" groups="qcom" revision="cm-12.1-caf-8974" />
+  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" remote="github" groups="pdk" revision="cm-12.1-caf" />
 </manifest>
