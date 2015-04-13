@@ -511,7 +511,7 @@
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.1" />
   <project path="device/lge/d851" name="platform_device_lge_d851" remote="AOSIP" />
   <project path="device/lge/g3-common" name="platform_device_lge_g3-common" remote="AOSIP" />
-  <project path="kernel/lge/g3" name="kernel_lge_g3" remote="CyanogenMod" />
+  <project path="kernel/lge/g3" name="android_kernel_lge_g3" remote="CyanogenMod" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="CyanogenMod" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="CyanogenMod" />
 
